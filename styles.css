@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.bar {
+    width: 30px;
+    margin: 0 2px;
+    background-color: #3498db;
+    transition: height 0.3s, background-color 0.3s;
+}
+
+.bar.sorted {
+    background-color: #2ecc71; /* Green for sorted bars */
+}
